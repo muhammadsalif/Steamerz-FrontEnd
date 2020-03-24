@@ -688,16 +688,16 @@
 .section6subdiv
 {
     width: 80%;
-    height: 85%;
+    height: 90%;
     margin: 0 auto;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 
 }
 
 /* **********section6subdiv top */
 .section6subdiv .top
 {
-    height: 15vh;
+    height: 20%;
     width: 17%;
     /* background-color: yellowgreen; */
     display: flex;
@@ -707,12 +707,15 @@
 .section6subdiv .top img
 {
     width: 100%;
-    height: 80%;
+    height: 60%;
 }
 
 /* ******************** Middle div *********************/
 .section6subdiv .middle
 {
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -720,10 +723,52 @@
 
 .section6subdiv .middle div
 {
-    width: 32%;
-    height: 100%;
-    border: 2px solid black;
+    width: 29%;
+    height: 85%;
+    /* border: 2px solid yellow; */
 }
+.section6subdiv .middle div h1
+{
+    text-transform: uppercase;
+    font-size: 45px;
+    color: rgb(127, 39, 38);
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.section6subdiv .middle div p
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Barlow Condensed';
+    line-height: 25px;
+}
+
+.section6subdiv .middle .three p
+{
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+}
+
+.section6subdiv .middle .three i
+{
+    margin-right: 20px;
+}
+
+.section6subdiv .middle .three .icons
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 10%;
+    /* border: 2px solid orange; */
+    position: relative;
+    top: 140px;
+    font-size: 25px;
+}
+
 
 
 
@@ -731,9 +776,15 @@
 .section6 .downdiv
 {
     width: 100%;
-    height: 15%;
+    height: 10%;
     margin: 0 auto;
-    background-color: blue;
+    background-color: rgb(127, 39, 38);
+    color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Condensed';
+    text-transform: uppercase;
 
 }
 
