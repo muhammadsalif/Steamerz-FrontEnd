@@ -1,0 +1,1197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*********************************** <!-- Main or first page --> */
+.mainpage
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+    /* background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url("assests/headerbackground.jpg"); */
+    /* background-size: cover; */
+    /* background-position: center; */
+
+}
+.mainpage img
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+/***********************************<!-- Sub page --> */
+.subpage
+{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: orange; */
+    position: relative;
+}
+
+/*********************************** <!-- top --> */
+.subpage .top
+{
+    width: 100%;
+    height: 20vh;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* <!-- Top left --> */
+.subpage .top .left
+{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.subpage .top .left img
+{
+    width: 60%;
+    height: 50%;
+    position: relative;
+    top: -8px;
+}
+
+/* <!-- Top center --> */
+.subpage .top .center
+{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    /* border: 2px solid gold; */
+    display: flex;
+    align-items: center;
+}
+.subpage .top .center nav
+{
+    width: 100%;
+}
+.subpage .top .center nav ul 
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.subpage .top .center nav ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+/* <!-- Top right --> */
+.subpage .top .right
+{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid gold; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.subpage .top .right button
+{
+    text-transform: uppercase;
+    padding: 11px 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(127, 39, 38);
+    border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+}
+
+
+/*********************************** <!-- middle --> */
+.middle
+{
+    width: 100%;
+    height: 60vh;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.middle h1  
+{
+    font-size: 65.2pt;
+    font-family: 'Medula One';
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+/*********************************** <!--bottom --> */
+.bottom
+{
+    width: 100%;
+    height: 20vh;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* p */
+.bottom p
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Medula One';
+    font-weight: normal;
+    font-size: 25px;
+}
+
+/* input */
+.bottom input
+{
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    padding: 11px 80px;
+    margin: 0px 17px;
+}
+
+/* button */
+.bottom button
+{
+    text-transform: uppercase;
+    padding: 11px 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(127, 39, 38);
+    border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+}
+
+
+/* <!-- ************************************Section 2*************************************************** --> */
+.section2
+{   
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(127, 39, 38);
+}
+
+/* <!-- section2subdiv --> */
+.section2subdiv
+{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* left */
+.section2subdiv .left
+{
+    width: 50%;
+    height: 70%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/* h1 */
+.section2subdiv .left h1
+{
+    font-size: 65.2pt;
+    font-family: 'Medula One';
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    
+}
+
+/* p */
+.section2subdiv .left p
+{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+/* button */
+.section2subdiv .left button
+{
+    background: rgb(255, 255, 255);
+    color: rgb(127, 39, 38);
+    font-family: 'Medula One';
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 11px 30px;
+    font-size: 13.39pt;
+
+}
+
+/* right */
+.section2subdiv .right
+{
+    width: 50%;
+    height: 70%;
+    /* border: 2px solid black; */
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)) ,url(assests/broast.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* .section2subdiv .right img
+{
+    width: 100%;
+    height: 100%;
+} */
+
+/* <!-- ************************************Section 3*************************************************** --> */
+.section3
+{
+    width: 100%;
+    height: 100vh;
+}
+/* section3subdiv */
+.section3subdiv
+{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: rosybrown; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+/* .section3subdiv div
+{
+    width: 100%;
+    height: 20%;
+    border: 2px solid black;
+} */
+
+/************************one */
+.section3subdiv .one
+{
+    width: 100%;
+    height: 20%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3subdiv .one h1
+{
+    color: rgb(127, 39, 38);
+    font-family: 'Medula One';
+    font-weight: normal;
+    font-size: 55.2pt;
+    
+}
+.section3subdiv .one nav
+{
+    width: 30%;
+}
+.section3subdiv .one nav ul
+{
+    display:flex; 
+    justify-content: space-around; 
+    list-style: none;
+}
+.section3subdiv .one nav ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(92, 111, 124);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+/************************two & three */
+.section3subdiv .same
+{
+    width: 100%;
+    height: 35vh;
+    /* background-color: black; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.section3subdiv .same .inner 
+{
+    width: 23%;
+    height: 100%;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    /* width: 100%; */
+    font-family: 'Medula One';
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.section3subdiv .same img
+{
+    width: 100%;
+    height: 80%;
+}
+
+.section3subdiv .same .inner .text
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* border: 2px solid red; */
+}
+.section3subdiv .same .inner .text .star
+{
+    color: rgb(127, 39, 38);
+}
+
+/************************four */
+.section3subdiv .four
+{
+    width: 100%;
+    height: 10vh;
+    /* border: 2px solid tan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3subdiv .four button
+{
+    padding: 11px 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(127, 39, 38); 
+    border: none;
+    text-transform: uppercase;
+}
+
+
+/* <!-- ************************************Section 4*************************************************** --> */
+.section4   
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(127, 39, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* left and right */
+.section4 .same
+{
+    width: 10%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    
+}
+.section4 .same i
+{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* width: 20%; */
+    height: 35%;
+}
+
+
+/* section4subdiv or middle */
+.section4 .section4subdiv
+{
+    width: 80%;
+    height: 100vh;
+    /* border: 2px solid blueviolet; */
+    
+}
+/******************************top */
+.section4 .section4subdiv .top
+{
+    width: 100%;
+    height: 17vh;
+    /* border: 2px solid violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4 .section4subdiv .top h1   
+{
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: 'Medula One';
+    font-weight: normal;
+    font-size: 55px;
+}
+
+/******************************middle */
+.section4 .section4subdiv .middle
+{
+    width: 100%;
+    height: 40vh;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section4 .section4subdiv .middle div
+{   
+    width: 32.5%;
+    height: 100%;
+    
+}
+
+.section4 .section4subdiv .middle div img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+/******************************bottom */
+.section4 .section4subdiv .bottom
+{
+    width: 100%;
+    height: 42vh;
+    /* background-color: tan; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section4 .section4subdiv .bottom div
+{   
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* border: 2px solid springgreen;   */
+    font-family: 'Medula One';
+    font-weight: normal;
+    /* overflow: hidden; */
+}
+.section4 .section4subdiv .bottom div h1    
+{
+    color: rgb(255, 255, 255);
+    font-size: 35.2pt;
+    position: relative;
+    top: -30px;
+}
+.section4 .section4subdiv .bottom div p
+{
+    /* text-align: justify; */
+    line-height: 25px;
+    font-size: 20px;
+    width: 60%;
+    position: relative;
+    top: -25px;
+}    
+
+.section4 .section4subdiv .bottom div .readmore
+{
+    position: relative;
+    top: 15px;
+}
+
+/* <!-- ************************************Section 5*************************************************** --> */
+.section5
+{
+    width: 100%;
+    height: 90vh;
+    /* background-color: thistle; */
+}
+
+/* section5 sub div or container */
+.section5subdiv
+{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: violet; */
+}
+
+/* one */
+.section5 .one
+{
+    width: 100%;
+    height: 25vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Medula One';
+    font-weight: 600;
+    flex-direction: column;
+    /* color: rgb(255, 255, 255); */
+    
+}
+.section5 .one h1   
+{
+    color: rgb(127, 39, 38);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20px;
+}
+.section5 .one p
+{
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(127, 39, 38);
+    padding-bottom: 2px;
+    position: relative;
+    top: 20px;
+    /* border-width:0px 2px; */
+}   
+
+/* two */
+.section5 .two
+{
+    width: 95%;
+    height: 33.94vh;
+    border: 1px solid gray;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section5 .two div
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* border:2px solid springgreen; */
+    height: 90%;
+
+}
+.section5 .two div label
+{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.section5 .two div input
+{
+    /* border: 2px solid black; */
+    background-color: rgb(243, 241, 237);
+    /* background-color: grey; */
+    color: rgb(134, 133, 130);
+    border: none;
+    width: 250px;
+    height: 30px;
+    padding-left: 2px;
+    text-align: left;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Barlow Condensed';
+}
+
+/* three */
+.section5 .three
+{
+    width: 100%;
+    height: 20vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5 .three button
+{
+    background-color: rgb(127, 39, 38);
+    color: rgb(255, 255, 255);
+    /* padding: 11px 27px; */
+    height: 46px;
+    width: 184px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    border: none;
+}
+
+/* four */
+.section5 .four
+{
+    width: 100%;
+    height: 5vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5 .four p
+{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed';
+    /* font-size: 600; */
+    font-weight: bolder;
+    color: black;
+    /* font-weight: 600pt; */
+    
+}
+
+/* <!-- ************************************Section 6*************************************************** --> */
+.section6
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(143, 150, 154, 0.7), rgba(175, 175, 175, 0.7)),url('assests/back.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/******************** section6subdiv */
+.section6subdiv
+{
+    width: 80%;
+    height: 85%;
+    margin: 0 auto;
+    background-color: yellowgreen;
+
+}
+
+/* **********section6subdiv top */
+.section6subdiv .top
+{
+    height: 15vh;
+    width: 17%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.section6subdiv .top img
+{
+    width: 100%;
+    height: 80%;
+}
+
+/* ******************** Middle div *********************/
+.section6subdiv .middle
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section6subdiv .middle div
+{
+    width: 32%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+
+
+/******************************* downdiv */
+.section6 .downdiv
+{
+    width: 100%;
+    height: 15%;
+    margin: 0 auto;
+    background-color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
